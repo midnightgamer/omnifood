@@ -1,0 +1,22 @@
+{
+  "name": "omnifood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midnightgamer/omnifood.git"
+  },
+  "author": "midnight_gamer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midnightgamer/omnifood/issues"
+  },
+  "homepage": "https://github.com/midnightgamer/omnifood#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}

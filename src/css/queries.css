@@ -94,6 +94,7 @@
     /*******************
     How Its Work
      */
+
     .btn-app img{height: 45px}
     .steps div{width: 45px ; height: 45px ; line-height: 45px}
     .step-box:last-child{margin-top: 90px}
@@ -105,13 +106,21 @@
     .step-box:last-child{margin-top: 120px}
 }
 
+@media only screen and (max-width:895px){
+   .col{width: 100%;}
+   body{font-size: 20px}
+   section{font-size: 100%}
+}
+
+
+/* @media screen and (max-width: 1000px) {
+   .col{width: 100%;}
+
+} */
+
+
 @media screen and (max-width: 800px) {
-    body{font-size: 20px}
-    section{font-size: 100%}
-    .col{width: 100% !important;}
-
-}
-
-@media (min-width: 320px) and (max-width: 800px) {
-    .col {width: 100% !important;}
-}
+    .col{width: 100%;}
+ 
+ }
+ 

@@ -511,6 +511,7 @@ Forum
 
 .section-form input[type=text],
 .section-form input[type=email],
+.section-form input[type=password],
 .section-form select,
 .section-form textarea{
     width: 80%;
@@ -523,6 +524,7 @@ Forum
 
 .section-form input:focus:invalid{
     border-bottom: 4px solid red;
+    background: rgba(233, 111, 115, 0.801)
 }
 
 textarea{
@@ -619,4 +621,52 @@ i:hover{
 footer p {
     text-align: center;
     font-size: 80%;
+}
+
+/******************
+Sign UP
+*******************/
+.section__signup{
+    position: fixed;
+    width: 100%;
+    background: rgba(14, 14, 14,0.7);
+    margin: 0;
+    top: 0;
+    left: 0;    
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.close{
+    position: absolute;
+    color: #b66a12;
+    float: right;
+    font-size: 50px;
+    cursor: pointer;
+    right: 60px;
+    top:30px;
+}
+
+.signup_box{   
+    position: absolute;
+     width: 80%;
+    background: #e8e8e8;
+    padding: 10px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);  
+    opacity: 0;
+    visibility: hidden;
+}
+
+.signup_box:target{
+    opacity: 1;
+    visibility: visible;
+}
+
+.signup_box:target .signup_box{
+    opacity: 1;
+    visibility: visible;
 }

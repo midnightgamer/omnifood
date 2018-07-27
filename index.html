@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
         <title>Omnifood</title>
-    <meta name=" viewport" content="width=divce-width , initial-scale=1.0">
+    <meta name="viewport" content="width=divce-width , initial-scale=1.0">
+    <meta charset="utf8">
     <!--Socail Icon Sets-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -14,10 +15,10 @@
 
 
 
-    <!--Fonts-->
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400" rel="stylesheet">
     <!--icon-->
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"> 
 
 
 </head>
@@ -361,7 +362,7 @@
                             </ul>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-full">Sign Up</a>
+                            <a href="#signup_box" class="btn btn-full">Sign Up</a>
                         </div>
                     </div>
                     </div>
@@ -455,6 +456,56 @@
             </footer>
 <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
 <script src="src/js/script.js"></script>
+<section class="section__signup" id="signup_box">
+    <div class="row">
+        <div class="close">&times;</div>
+        <div class="signup_box section-form">
+            <h2>Sign Up</h2>
+                <div class="forum__box">
+                    <div class="form__group row">
+                        <div class="col span-1-of-3">
+                              <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                    </div>
+                    <div class="form__group row">
+                        <div class="col span-1-of-3">
+                                <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                                <input type="email" name="email" placeholder="Your Email " required autocomplete="none">
+                        </div>
+                    </div>
+                    <div class="form__group row">
+                        <div class="col span-1-of-3">
+                                <label for="password">Password</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                                <input type="password" name="password" placeholder="Password " required autocomplete="none">
+                        </div>
+                    </div>
+                    <div class="form__group row">
+                        <div class="col span-1-of-3">
+                                <label for="cpassword">Confirm Password</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                                <input type="password" name="cpassword" placeholder="Confirm Password " required autocomplete="none">
+                        </div>
+                    </div>
+                
+
+                    <div class="row">
+                        <div class="col span-1-of-3">&nbsp;</div>
+                        <div class="col span-2-of-3">
+                            <a href="" class="btn btn-full">Sign In</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
 
